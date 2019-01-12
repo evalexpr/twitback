@@ -35,7 +35,9 @@ Create a Twitter app at [Twitter](https://developer.twitter.com/en/apps) and gra
 **Run it in daemon mode with twitter keys/tokens**
 
 ```console
-# You need to either have environment variables that are CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET, or pass them into the container.
+# You need to either have environment variables that are
+# CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET
+# or pass them into the container.
 $ docker run -d --restart always \
     --name twitback \
     -e CONSUMER_KEY=foo
