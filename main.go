@@ -49,7 +49,7 @@ func main() {
 	p.FlagSet.BoolVar(&debug, "debug", false, "enable debug logging")
 
 	p.FlagSet.BoolVar(&once, "once", false, "run once and exit")
-	p.FlagSet.DurationVar(&interval, "interval", 15*time.Second, "update interval (ex. 5ms, 10s, 1m, 3h)")
+	p.FlagSet.DurationVar(&interval, "interval", 20*time.Hour, "update interval (ex. 5ms, 10s, 1m, 3h)")
 
 	p.FlagSet.StringVar(&directory, "dir", "downloads", "directory to store the downloaded favorites in")
 
