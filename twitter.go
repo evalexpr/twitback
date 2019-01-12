@@ -97,7 +97,10 @@ func (c *Client) DownloadFavorites() error {
 				return fmt.Errorf("could not write to tweet.txt: %v", err)
 			}
 		}
-		tw.HandleEntities(dir)
+
+		if t.ExtendedEntities != nil {
+			tw.HandleEntities(dir)
+		}
 	}
 
 	c.DownloadFavorites()
