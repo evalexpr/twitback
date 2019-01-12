@@ -32,7 +32,7 @@ $ go get github.com/w1lkins/twitback
 
 Create a Twitter app at [Twitter](https://developer.twitter.com/en/apps) and grab the consumer keys and access tokens.
 
-**Run it in daemon mode with our auth code**
+**Run it in daemon mode with twitter keys/tokens**
 
 ```console
 # You need to either have environment variables that are CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET, or pass them into the container.
