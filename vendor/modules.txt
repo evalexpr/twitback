@@ -6,8 +6,6 @@ github.com/dghubble/go-twitter/twitter
 github.com/dghubble/oauth1
 # github.com/dghubble/sling v1.2.0
 github.com/dghubble/sling
-# github.com/genuinetools/img v0.5.6
-github.com/genuinetools/img/version
 # github.com/genuinetools/pkg v0.0.0-20181022210355-2fcf164d37cb
 github.com/genuinetools/pkg/cli
 # github.com/google/go-querystring v1.0.0
