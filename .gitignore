@@ -6,6 +6,8 @@
 *.dylib
 twitback
 downloads
+test_fixtures/photo.png
+test_fixtures/video.mp4
 
 # Test binary, build with `go test -c`
 *.test
