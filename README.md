@@ -18,12 +18,12 @@ A bot to backup your Twitter favorites
 
 #### Binaries
 
-For installation instructions from binaries please visit the [Releases Page](https://github.com/w1lkins/twitback/releases).
+For installation instructions from binaries please visit the [Releases Page](https://github.com/evalexpr/twitback/releases).
 
 #### Via Go
 
 ```console
-$ go get github.com/w1lkins/twitback
+$ go get github.com/evalexpr/twitback
 ```
 
 #### Running with Docker

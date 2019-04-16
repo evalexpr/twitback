@@ -1,4 +1,4 @@
-module github.com/W1lkins/twitback
+module github.com/evalexpr/twitback
 
 require (
 	github.com/cenkalti/backoff v2.1.1+incompatible // indirect

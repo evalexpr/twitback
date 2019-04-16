@@ -9,7 +9,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/W1lkins/twitback/version"
 	"github.com/genuinetools/pkg/cli"
 	"github.com/sirupsen/logrus"
 )
@@ -41,8 +40,8 @@ func main() {
 	p := cli.NewProgram()
 	p.Name = "twitback"
 	p.Description = "A bot to backup your favorites from Twitter"
-	p.GitCommit = version.GITCOMMIT
-	p.Version = version.VERSION
+	p.GitCommit = GITCOMMIT
+	p.Version = VERSION
 
 	p.FlagSet = flag.NewFlagSet("twitback", flag.ExitOnError)
 	p.FlagSet.BoolVar(&debug, "d", false, "enable debug logging")

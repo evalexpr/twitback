@@ -7,7 +7,7 @@ RUN	apk add --no-cache \
 	bash \
 	ca-certificates
 
-COPY . /go/src/github.com/W1lkins/twitback
+COPY . /go/src/github.com/evalexpr/twitback
 
 RUN set -x \
 	&& apk add --no-cache --virtual .build-deps \
@@ -16,7 +16,7 @@ RUN set -x \
 		libc-dev \
 		libgcc \
 		make \
-	&& cd /go/src/github.com/W1lkins/twitback \
+	&& cd /go/src/github.com/evalexpr/twitback \
 	&& make static \
 	&& mv twitback /usr/bin/twitback \
 	&& apk del .build-deps \

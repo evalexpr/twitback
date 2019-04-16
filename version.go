@@ -1,4 +1,4 @@
-package version
+package main
 
 // VERSION indicates which version of the binary is running.
 var VERSION string
