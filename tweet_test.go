@@ -31,7 +31,7 @@ func TestHandleEntities(t *testing.T) {
 				twitter.Tweet{
 					ExtendedEntities: &twitter.ExtendedEntity{
 						Media: []twitter.MediaEntity{
-							{Type: "photo", MediaURL: "http://test.wilkins.tech/twitback/test.png"},
+							{Type: "photo", MediaURL: "https://static.wilkins.tech/twitback/test.png"},
 						},
 					},
 				},
@@ -48,7 +48,7 @@ func TestHandleEntities(t *testing.T) {
 							{
 								Type: "video",
 								VideoInfo: twitter.VideoInfo{
-									Variants: []twitter.VideoVariant{{URL: "http://test.wilkins.tech/twitback/test.mp4"}},
+									Variants: []twitter.VideoVariant{{URL: "https://static.wilkins.tech/twitback/test.mp4"}},
 								},
 							},
 						},
